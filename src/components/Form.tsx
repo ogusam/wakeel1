@@ -66,7 +66,7 @@ function Form() {
   const [businessDetails, setBusinessDetails] = useState<BusinessDetails>({
     name: "",
     address: "",
-    phone: 0,
+    phone: +234,
     email: "",
     bvn: 0,
     cacNumber: "",
